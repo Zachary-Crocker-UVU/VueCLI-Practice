@@ -47,6 +47,7 @@
     <v-content>
       <HelloWorld msg="Hello"/>
       <HelloWorld obj="World"/>
+      <NewFile msg="ayy"/>
     </v-content>
     <v-navigation-drawer
       temporary
@@ -76,7 +77,8 @@ import NewFile from './components/NewFile'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    NewFile
   },
   data () {
     return {
