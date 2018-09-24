@@ -72,7 +72,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld'
-
+import NewFile from './components/NewFile'
 export default {
   name: 'App',
   components: {
