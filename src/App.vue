@@ -45,7 +45,8 @@
       </v-btn>
     </v-toolbar>
     <v-content>
-      <HelloWorld/>
+      <HelloWorld msg="Hello"/>
+      <HelloWorld obj="World"/>
     </v-content>
     <v-navigation-drawer
       temporary
